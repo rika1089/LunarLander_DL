@@ -1,7 +1,7 @@
 import gymnasium as gym
 import time
 
-env = gym.make("CartPole", render_mode="human")
+env = gym.make("LunarLander-v2", render_mode="human")
 
 state, info = env.reset()
 print("---Environment Info---")
